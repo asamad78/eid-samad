@@ -1,0 +1,45 @@
+body {
+    background-color: #f1c40f;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    background-image: url(/eid.jpeg);
+    background-size: cover;
+  }
+  h1 {
+    margin-top: 50px;
+    font-size: 3em;
+    color: #34495e;
+    text-shadow: 2px 2px #f39c12;
+  }
+  input {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  button {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+  }
+  h2 {
+    animation-name: myanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myanimation {
+    from { color: #0d4edb; }
+    to { color: #0f701c; }
+  }
+  
